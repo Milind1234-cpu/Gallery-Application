@@ -11,6 +11,10 @@ const App = () => {
   }
   useEffect(() => {
     getdata()
+    window.scrollTo({
+      top:0,
+      behavior:'smooth'
+    })
   },[index])
   
 
