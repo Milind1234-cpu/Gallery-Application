@@ -3,7 +3,7 @@ import axios from 'axios'
 
 const App = () => {
   const [Userdata, setUserdata] = useState([])
-  const [index, setindex] = useState(1)
+  const [index, setindex] = useState(3)
   const topRef = useRef(null)
 
   const getdata = async () => {
